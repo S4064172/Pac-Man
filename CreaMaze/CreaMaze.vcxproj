@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1F8632E4-4A9A-4715-83AF-E2FAC38A64D5}</ProjectGuid>
-    <RootNamespace>PackMan</RootNamespace>
+    <ProjectGuid>{DBFA6F9C-E975-4599-B7FF-C2540136A300}</ProjectGuid>
+    <RootNamespace>CreaMaze</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,11 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="packMan.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="packMan.h" />
+    <ClCompile Include="mainMaze.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
